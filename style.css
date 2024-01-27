@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+*{margin: 0px; font-family: 'Segoe UI', sans-serif;}
+html, body{width: 100vw;}
+a{text-decoration: none;}
+#vidbg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1;
+}
+nav{
+    display: flex;
+    background-color: #ABD870;
+    justify-content: space-around;
+    box-shadow: 0px 8px 16px 0px rgba(83, 85, 83, 0.2);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    height: 45px;
+}
+.link1 a{
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    color: black;
+}
+.link1 img{
+    width: 40px;
+}
+.link2 a{
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    color: black;
+}
+.link2 img{
+    width: 40px;
+}
+.link3 a{
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    color: black;
+}
+.link3 img{
+    width: 40px;
+}
+.pagetitle{
+    margin-left: 1vw; 
+    color:rgb(0, 0, 0);}
+
+.main-content{
+    display: flex;
+}
+.banner{
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 20px;
+    background-color: #6c864ac2;
+    padding: 40px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.bannerhead{
+    font-size: 60px;
+    font-weight: 500;
+    color: #D6E1D6;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+article{
+    color: #D6E1D6;
+    background-color: #1E6227;
+    border-radius: 26px;
+    font-family: "Archivo Black", sans-serif;
+    padding-left: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 75%;
+    margin-left: 20px;
+    padding: 7px;
+    text-align: center;
+}
+.background-info{
+    background-color: #ffffff7a;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 25px;
+    height: fit-content;
+}
+.content-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.wwhdsf{
+    background-color: #ffffff7a;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.wwhdsf h1{
+    font-family: "Archivo Black", sans-serif;
+    margin-left: 5px;
+}
+.wwhdsf p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.contents{
+    display: flex;
+}
+.initiatives{ 
+    background-color: #6c864ac0;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.initiatives h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.initiatives p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+.involvements{
+    background-color: #6c864ac0;
+    padding: 20px;    
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.involvements h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.involvements p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+.activities {
+    background-color: #6c864ac0;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.activities h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.activities p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+.aboutus{
+    display: flex;
+}
+.aboutbird{
+    background-color: #ffffff7a;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: left;
+    width: 100vw;
+}
+.aboutbird h2{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+}
+.aboutbird p{
+    font-size: 18px;
+}
+.vision{
+    background-color:#abd870ad;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    float: right;
+    width: 90vw;
+    margin-left: 10px;
+}
+.vision h2{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+}
+.vision p{
+    font-size: 18px;
+}
+.mission{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    float: right;
+    background-color: #abd870ad;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 53%;
+}
+.mission h2{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+}
+.mission p{
+    font-size: 18px;
+}
+.volunteer{
+    background-color: #1e6227b7;
+    width: 60vw;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.volunteer h2{
+    text-align: center;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+}
+.volunteer p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.volunteerhere{
+    background-color:#ABD870;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+.volunteerhere p{
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
